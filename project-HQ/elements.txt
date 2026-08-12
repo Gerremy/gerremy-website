@@ -1,0 +1,6 @@
+Types of elements
+    - types of text containers:
+        - headers
+            - main header
+            - sub header
+        - body
