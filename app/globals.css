@@ -1,26 +1,35 @@
+
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #ffffff; /* This means the default backgrund for the application is white */
   --foreground: #171717;
+    /* This means the default text, text deocrations and all other elements for the application is black */
 }
 
 @theme inline {
-  --color-background: var(--background);
+  --color-background: var(--background); /* this means, for all inline backgrounds, the color is the :root default */
   --color-foreground: var(--foreground);
+    /* this means, for all inline text, text deocrations and all other elements, the color is the :root default */
   --font-sans: var(--font-geist-sans);
+    /* this means, for all inline elements, the font-sans is the geist-sans set font in layout.css */
   --font-mono: var(--font-geist-mono);
+    /* this means, for all inline elements, the font-mono is the geist-mono set font in layout.css */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
+      /* this means if a user has requested dark mode, the background is this color black*/
     --foreground: #ededed;
+      /* this means if a user has requested dark mode, the text, text decoration and all other elements are this color gray */
   }
 }
 
-body {
+body { /* this sets the defaults for everything in between */
   background: var(--background);
+  background-image: url("/BID1.PNG");
+  background-size: cover;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
