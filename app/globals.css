@@ -29,7 +29,7 @@
 
 body { /* this sets the defaults for everything in between */
   background: var(--background);
-  background-image: url("/BID1.PNG");
+  background-image: url("/background-images-desktop/BID1.PNG");
   background-size: cover;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
