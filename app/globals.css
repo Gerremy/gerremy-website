@@ -11,10 +11,11 @@
   --color-background: var(--background); /* this means, for all inline backgrounds, the color is the :root default */
   --color-foreground: var(--foreground);
     /* this means, for all inline text, text deocrations and all other elements, the color is the :root default */
-  --font-sans: var(--font-geist-sans);
+  --font-heading: var(--font-instrument-sans);
     /* this means, for all inline elements, the font-sans is the geist-sans set font in layout.css */
-  --font-mono: var(--font-geist-mono);
+  --font-body: var(--font-manrope);
     /* this means, for all inline elements, the font-mono is the geist-mono set font in layout.css */
+  --font-accent: var(--font-fire-code);
 }
 
 @media (prefers-color-scheme: dark) {
