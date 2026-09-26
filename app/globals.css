@@ -13,9 +13,10 @@
     /* this means, for all inline text, text deocrations and all other elements, the color is the :root default */
   --font-heading: var(--font-instrument-sans);
     /* this means, for all inline elements, the font-sans is the geist-sans set font in layout.css */
-  --font-body: var(--font-manrope);
+  --font-subheading: var(--font-manrope);
     /* this means, for all inline elements, the font-mono is the geist-mono set font in layout.css */
-  --font-accent: var(--font-fire-code);
+  --font-body: var(--font-fire-code);
+  --font-accent: var(--font-caveat);
 }
 
 @media (prefers-color-scheme: dark) {

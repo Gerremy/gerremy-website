@@ -1,8 +1,13 @@
 To Do List
-    - make element 1 in pic3
-    - make element 2 in pic3
-    - make element 3 in pic3
-    - make element 4 in pic3
+    Pic 1
+    - make header text in pic1
+    - make profile pic section in pic1
+    - make quick experience highlights section in pic1
+    - make work highlights (but not tech stack) section in pic1
+    - make let's connect section in pic1
+    - make element 1 in pic1
+    - make element 2 in pic1
+    Pic 2
     - make element 1 in pic2
     - make button bar
     - make buttons in button bar change color on hover
@@ -13,13 +18,15 @@ To Do List
     - make element 3 in pic2
     - make let's connect section in pic2
     - make footer in pic2
-    - make header text in pic1
-    - make profile pic section in pic1
-    - make quick experience highlights section in pic1
-    - make work highlights (but not tech stack) section in pic1
-    - make let's connect section in pic1
-    - make element 1 in pic1
-    - make element 2 in pic1
+    Pic 3
+    - make element 1 in pic3
+    - make element 2 in pic3
+    - make element 3 in pic3
+    - make element 4 in pic3
+    General
+    - Add background changing for different viewports
+    - Add bakcground changing for different times of day
+    - Create a safe agent to answer chat questions about me
 
 Completed Items
     - make logo and make it copy-and-paste-able
